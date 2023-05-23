@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+form button {
+    font-family: 'Comfortaa', cursive;
+}
+
+body, input,textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px auto;
+    background-color: black;
+    color:beige;
+}
+
+header nav li {
+    display: inline-flex;
+    margin-right: 16px;
+    vertical-align: 100%;
+}
+
+header nav li a {
+    color:beige;
+    text-decoration: none;
+}
+
+header nav img {
+    width: 80px;
+}
+
+.container,
+.cenas,
+.sobre,
+.contato {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cenas li{
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.cenas li a {
+    text-decoration: none;
+    margin-top: 30px;
+    color: cornflowerblue;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section ul li {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cenas img {
+    width: 300px;
+    margin-right: 32px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize:none;
+    height: 180px;
+}
+
+form button {
+    background-color: black;
+    color: beige;
+    border: none;
+    cursor: pointer;
+    transition: transform 200ms linear;
+}
+
+form button:hover{
+    background-color: rgb(29, 29, 29);
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: black;
+    color: beige;
+    padding: 16px 0;
+}
